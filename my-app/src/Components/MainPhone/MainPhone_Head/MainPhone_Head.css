@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MainPhone_Head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.MainPhone_Head-Title-Main{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.MainPhone_Head-Title-Side{
+    color: #84817a;
+}
+
+.MainPhone_Head-Title{
+    display: flex;
+    flex-direction: column;
+}

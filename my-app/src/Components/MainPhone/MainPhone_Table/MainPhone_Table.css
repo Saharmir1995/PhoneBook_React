@@ -1,0 +1,30 @@
+.MainPhone_Table {
+    overflow: hidden;
+    height: 70vh;
+    overflow-y: scroll;
+}
+.avatar-style {
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #000;
+    width: 52px;
+    height: 52px;
+}
+
+.avatar-style img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.MainPhone_Table-Alert {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor:pointer;
+}
